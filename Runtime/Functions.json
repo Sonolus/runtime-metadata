@@ -2983,6 +2983,90 @@
         "controlFlow": false
     },
     {
+        "name": "StreamGetNextKey",
+        "parameters": [
+            {
+                "type": "item",
+                "name": "id"
+            },
+            {
+                "type": "item",
+                "name": "key"
+            }
+        ],
+        "sideEffects": false,
+        "pure": true,
+        "controlFlow": false
+    },
+    {
+        "name": "StreamGetPreviousKey",
+        "parameters": [
+            {
+                "type": "item",
+                "name": "id"
+            },
+            {
+                "type": "item",
+                "name": "key"
+            }
+        ],
+        "sideEffects": false,
+        "pure": true,
+        "controlFlow": false
+    },
+    {
+        "name": "StreamGetValue",
+        "parameters": [
+            {
+                "type": "item",
+                "name": "id"
+            },
+            {
+                "type": "item",
+                "name": "key"
+            }
+        ],
+        "sideEffects": false,
+        "pure": true,
+        "controlFlow": false
+    },
+    {
+        "name": "StreamHas",
+        "parameters": [
+            {
+                "type": "item",
+                "name": "id"
+            },
+            {
+                "type": "item",
+                "name": "key"
+            }
+        ],
+        "sideEffects": false,
+        "pure": true,
+        "controlFlow": false
+    },
+    {
+        "name": "StreamSet",
+        "parameters": [
+            {
+                "type": "item",
+                "name": "id"
+            },
+            {
+                "type": "item",
+                "name": "key"
+            },
+            {
+                "type": "item",
+                "name": "value"
+            }
+        ],
+        "sideEffects": true,
+        "pure": false,
+        "controlFlow": false
+    },
+    {
         "name": "Subtract",
         "parameters": [
             {
