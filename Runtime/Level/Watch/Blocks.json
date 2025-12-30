@@ -225,7 +225,8 @@
                     "primaryMetricValue",
                     "secondaryMetricBar",
                     "secondaryMetricValue",
-                    "progress"
+                    "progress",
+                    "progressGraph"
                 ]
             }
         ]
