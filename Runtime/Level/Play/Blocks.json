@@ -757,6 +757,10 @@
             {
                 "type": "item",
                 "name": "bucketValue"
+            },
+            {
+                "type": "item",
+                "name": "haptic"
             }
         ]
     },
