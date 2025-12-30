@@ -628,6 +628,58 @@
         ]
     },
     {
+        "name": "EntityScore",
+        "id": 4005,
+        "readable": [
+            "preprocess",
+            "spawnTime",
+            "despawnTime",
+            "initialize",
+            "updateSequential",
+            "updateParallel",
+            "terminate",
+            "updateSpawn"
+        ],
+        "writable": [
+            "preprocess"
+        ],
+        "values": [
+            {
+                "type": "item",
+                "name": "multiplier"
+            }
+        ]
+    },
+    {
+        "name": "EntityLife",
+        "id": 4006,
+        "readable": [
+            "preprocess",
+            "spawnTime",
+            "despawnTime",
+            "initialize",
+            "updateSequential",
+            "updateParallel",
+            "terminate",
+            "updateSpawn"
+        ],
+        "writable": [
+            "preprocess"
+        ],
+        "values": [
+            {
+                "type": "item",
+                "name": "increment",
+                "forEach": [
+                    "perfect",
+                    "great",
+                    "good",
+                    "miss"
+                ]
+            }
+        ]
+    },
+    {
         "name": "EntityDataArray",
         "id": 4101,
         "readable": [
@@ -724,6 +776,70 @@
         ]
     },
     {
+        "name": "EntityScoreArray",
+        "id": 4105,
+        "readable": [
+            "preprocess",
+            "spawnTime",
+            "despawnTime",
+            "initialize",
+            "updateSequential",
+            "updateParallel",
+            "terminate",
+            "updateSpawn"
+        ],
+        "writable": [
+            "preprocess"
+        ],
+        "values": [
+            {
+                "type": "group",
+                "items": [
+                    {
+                        "type": "item",
+                        "name": "multiplier"
+                    }
+                ],
+                "minCount": 0
+            }
+        ]
+    },
+    {
+        "name": "EntityLifeArray",
+        "id": 4106,
+        "readable": [
+            "preprocess",
+            "spawnTime",
+            "despawnTime",
+            "initialize",
+            "updateSequential",
+            "updateParallel",
+            "terminate",
+            "updateSpawn"
+        ],
+        "writable": [
+            "preprocess"
+        ],
+        "values": [
+            {
+                "type": "group",
+                "items": [
+                    {
+                        "type": "item",
+                        "name": "increment",
+                        "forEach": [
+                            "perfect",
+                            "great",
+                            "good",
+                            "miss"
+                        ]
+                    }
+                ],
+                "minCount": 0
+            }
+        ]
+    },
+    {
         "name": "ArchetypeLife",
         "id": 5000,
         "readable": [
@@ -752,6 +868,35 @@
                             "good",
                             "miss"
                         ]
+                    }
+                ],
+                "minCount": 0
+            }
+        ]
+    },
+    {
+        "name": "ArchetypeScore",
+        "id": 5001,
+        "readable": [
+            "preprocess",
+            "spawnTime",
+            "despawnTime",
+            "initialize",
+            "updateSequential",
+            "updateParallel",
+            "terminate",
+            "updateSpawn"
+        ],
+        "writable": [
+            "preprocess"
+        ],
+        "values": [
+            {
+                "type": "group",
+                "items": [
+                    {
+                        "type": "item",
+                        "name": "multiplier"
                     }
                 ],
                 "minCount": 0
