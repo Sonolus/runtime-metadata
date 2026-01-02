@@ -469,6 +469,14 @@
                     "great",
                     "good"
                 ]
+            },
+            {
+                "type": "item",
+                "name": "initial"
+            },
+            {
+                "type": "item",
+                "name": "max"
             }
         ]
     },
