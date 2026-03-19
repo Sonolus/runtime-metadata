@@ -553,6 +553,14 @@
                     "great",
                     "good"
                 ]
+            },
+            {
+                "type": "item",
+                "name": "initial"
+            },
+            {
+                "type": "item",
+                "name": "max"
             }
         ]
     },
@@ -757,6 +765,62 @@
             {
                 "type": "item",
                 "name": "bucketValue"
+            },
+            {
+                "type": "item",
+                "name": "haptic"
+            }
+        ]
+    },
+    {
+        "name": "EntityScore",
+        "id": 4006,
+        "readable": [
+            "preprocess",
+            "spawnOrder",
+            "shouldSpawn",
+            "initialize",
+            "updateSequential",
+            "touch",
+            "updateParallel",
+            "terminate"
+        ],
+        "writable": [
+            "preprocess"
+        ],
+        "values": [
+            {
+                "type": "item",
+                "name": "multiplier"
+            }
+        ]
+    },
+    {
+        "name": "EntityLife",
+        "id": 4007,
+        "readable": [
+            "preprocess",
+            "spawnOrder",
+            "shouldSpawn",
+            "initialize",
+            "updateSequential",
+            "touch",
+            "updateParallel",
+            "terminate"
+        ],
+        "writable": [
+            "preprocess"
+        ],
+        "values": [
+            {
+                "type": "item",
+                "name": "increment",
+                "forEach": [
+                    "perfect",
+                    "great",
+                    "good",
+                    "miss"
+                ]
             }
         ]
     },
@@ -858,6 +922,70 @@
         ]
     },
     {
+        "name": "EntityScoreArray",
+        "id": 4106,
+        "readable": [
+            "preprocess",
+            "spawnOrder",
+            "shouldSpawn",
+            "initialize",
+            "updateSequential",
+            "touch",
+            "updateParallel",
+            "terminate"
+        ],
+        "writable": [
+            "preprocess"
+        ],
+        "values": [
+            {
+                "type": "group",
+                "items": [
+                    {
+                        "type": "item",
+                        "name": "multiplier"
+                    }
+                ],
+                "minCount": 0
+            }
+        ]
+    },
+    {
+        "name": "EntityLifeArray",
+        "id": 4107,
+        "readable": [
+            "preprocess",
+            "spawnOrder",
+            "shouldSpawn",
+            "initialize",
+            "updateSequential",
+            "touch",
+            "updateParallel",
+            "terminate"
+        ],
+        "writable": [
+            "preprocess"
+        ],
+        "values": [
+            {
+                "type": "group",
+                "items": [
+                    {
+                        "type": "item",
+                        "name": "increment",
+                        "forEach": [
+                            "perfect",
+                            "great",
+                            "good",
+                            "miss"
+                        ]
+                    }
+                ],
+                "minCount": 0
+            }
+        ]
+    },
+    {
         "name": "ArchetypeLife",
         "id": 5000,
         "readable": [
@@ -886,6 +1014,35 @@
                             "good",
                             "miss"
                         ]
+                    }
+                ],
+                "minCount": 0
+            }
+        ]
+    },
+    {
+        "name": "ArchetypeScore",
+        "id": 5001,
+        "readable": [
+            "preprocess",
+            "spawnOrder",
+            "shouldSpawn",
+            "initialize",
+            "updateSequential",
+            "touch",
+            "updateParallel",
+            "terminate"
+        ],
+        "writable": [
+            "preprocess"
+        ],
+        "values": [
+            {
+                "type": "group",
+                "items": [
+                    {
+                        "type": "item",
+                        "name": "multiplier"
                     }
                 ],
                 "minCount": 0

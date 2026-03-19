@@ -25,6 +25,22 @@
         "controlFlow": false
     },
     {
+        "name": "AddLifeScheduled",
+        "parameters": [
+            {
+                "type": "item",
+                "name": "value"
+            },
+            {
+                "type": "item",
+                "name": "time"
+            }
+        ],
+        "sideEffects": true,
+        "pure": false,
+        "controlFlow": false
+    },
+    {
         "name": "And",
         "parameters": [
             {
