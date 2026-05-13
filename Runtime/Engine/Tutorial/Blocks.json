@@ -22,6 +22,22 @@
             {
                 "type": "item",
                 "name": "audioOffset"
+            },
+            {
+                "type": "item",
+                "name": "safeAreaXMin"
+            },
+            {
+                "type": "item",
+                "name": "safeAreaXMax"
+            },
+            {
+                "type": "item",
+                "name": "safeAreaYMin"
+            },
+            {
+                "type": "item",
+                "name": "safeAreaYMax"
             }
         ]
     },

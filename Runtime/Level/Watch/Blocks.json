@@ -35,6 +35,22 @@
             {
                 "type": "item",
                 "name": "replay"
+            },
+            {
+                "type": "item",
+                "name": "safeAreaXMin"
+            },
+            {
+                "type": "item",
+                "name": "safeAreaXMax"
+            },
+            {
+                "type": "item",
+                "name": "safeAreaYMin"
+            },
+            {
+                "type": "item",
+                "name": "safeAreaYMax"
             }
         ]
     },
