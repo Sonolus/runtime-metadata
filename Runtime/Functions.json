@@ -480,11 +480,26 @@
             },
             {
                 "type": "item",
-                "name": "z"
+                "name": "z1"
             },
             {
                 "type": "item",
                 "name": "a"
+            },
+            {
+                "type": "item",
+                "name": "z2",
+                "optional": true
+            },
+            {
+                "type": "item",
+                "name": "z3",
+                "optional": true
+            },
+            {
+                "type": "item",
+                "name": "z4",
+                "optional": true
             }
         ],
         "sideEffects": true,
@@ -514,7 +529,7 @@
             },
             {
                 "type": "item",
-                "name": "z"
+                "name": "z1"
             },
             {
                 "type": "item",
@@ -531,6 +546,21 @@
             {
                 "type": "item",
                 "name": "q"
+            },
+            {
+                "type": "item",
+                "name": "z2",
+                "optional": true
+            },
+            {
+                "type": "item",
+                "name": "z3",
+                "optional": true
+            },
+            {
+                "type": "item",
+                "name": "z4",
+                "optional": true
             }
         ],
         "sideEffects": true,
@@ -560,7 +590,7 @@
             },
             {
                 "type": "item",
-                "name": "z"
+                "name": "z1"
             },
             {
                 "type": "item",
@@ -583,6 +613,21 @@
                     }
                 ],
                 "count": 2
+            },
+            {
+                "type": "item",
+                "name": "z2",
+                "optional": true
+            },
+            {
+                "type": "item",
+                "name": "z3",
+                "optional": true
+            },
+            {
+                "type": "item",
+                "name": "z4",
+                "optional": true
             }
         ],
         "sideEffects": true,
@@ -612,7 +657,7 @@
             },
             {
                 "type": "item",
-                "name": "z"
+                "name": "z1"
             },
             {
                 "type": "item",
@@ -629,6 +674,21 @@
             {
                 "type": "item",
                 "name": "q"
+            },
+            {
+                "type": "item",
+                "name": "z2",
+                "optional": true
+            },
+            {
+                "type": "item",
+                "name": "z3",
+                "optional": true
+            },
+            {
+                "type": "item",
+                "name": "z4",
+                "optional": true
             }
         ],
         "sideEffects": true,
@@ -658,7 +718,7 @@
             },
             {
                 "type": "item",
-                "name": "z"
+                "name": "z1"
             },
             {
                 "type": "item",
@@ -681,6 +741,21 @@
                     }
                 ],
                 "count": 2
+            },
+            {
+                "type": "item",
+                "name": "z2",
+                "optional": true
+            },
+            {
+                "type": "item",
+                "name": "z3",
+                "optional": true
+            },
+            {
+                "type": "item",
+                "name": "z4",
+                "optional": true
             }
         ],
         "sideEffects": true,
@@ -710,7 +785,7 @@
             },
             {
                 "type": "item",
-                "name": "z"
+                "name": "z1"
             },
             {
                 "type": "item",
@@ -727,6 +802,21 @@
             {
                 "type": "item",
                 "name": "q"
+            },
+            {
+                "type": "item",
+                "name": "z2",
+                "optional": true
+            },
+            {
+                "type": "item",
+                "name": "z3",
+                "optional": true
+            },
+            {
+                "type": "item",
+                "name": "z4",
+                "optional": true
             }
         ],
         "sideEffects": true,
@@ -756,7 +846,7 @@
             },
             {
                 "type": "item",
-                "name": "z"
+                "name": "z1"
             },
             {
                 "type": "item",
@@ -773,6 +863,21 @@
             {
                 "type": "item",
                 "name": "q"
+            },
+            {
+                "type": "item",
+                "name": "z2",
+                "optional": true
+            },
+            {
+                "type": "item",
+                "name": "z3",
+                "optional": true
+            },
+            {
+                "type": "item",
+                "name": "z4",
+                "optional": true
             }
         ],
         "sideEffects": true,
